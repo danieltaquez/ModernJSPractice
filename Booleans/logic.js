@@ -34,3 +34,4 @@ if (isguestOneVegan && isguestTwoVegan) {
 }else {
     console.log('Anything')
 }
+
