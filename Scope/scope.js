@@ -1,10 +1,26 @@
-let meatEater = true
-let NotMeatEater = false
+let varOne =  'varOne'
 
-if (meatEater || NotMeatEater) {
-    console.log("Meat Menu");
-}else if (NotMeatEater && meatEater){
-    console.log("Vegan Menu")
-}else {
-    console.log("both")
+if (true) {
+    console.log (varOne)
+    let varTwo = 'varTwo'
+    console.log(varTwo)
+
+    if (true) {
+        varFour = 'varFour'
+    }
 }
+
+if (true) {
+    let varThree = 'varThree'
+}
+
+
+
+//javascript using lexical/static scoping.
+//global scope (outside of all code blocks)
+//local scope (insied code block)
+
+//var0one
+    //vartwo
+        //varfour
+    //varThree
