@@ -32,7 +32,8 @@ let Far = function (num) {
 };
 
 let ConvertedCelsuis = Far(32)
-let otherValue = (68)
+let otherValue = Far(68)
 
 console.log(ConvertedCelsuis)
 console.log(otherValue)
+
