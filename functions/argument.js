@@ -10,7 +10,8 @@ console.log(result)
 //defualt arguments
 
 let getScoreText = function (name = 'non',score = 0) {
-    return 'Name:' + name + ' - Score: ' + score
+    retuen `Name: ${name} - score: ${score}`
+   // return 'Name:' + name + ' - Score: ' + score
 }
 
 let scoreText= getScoreText(undefined, 100);
@@ -19,9 +20,12 @@ console.log(scoreText)
 //
 
 let getTip = function (bill, tipPercent = .2) {
-    return 'Bill:' + bill + ' Tip: ' +  bill * tipPercent 
+    let percent = tipPercent * 100
+    let tip = bill * tipPercent
+    return `A 20 percent tip on ${percent} would be ${tip} `
     
 }
 
 let tip = getTip(100, .25)
 console.log(tip)
+
