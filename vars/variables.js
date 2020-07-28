@@ -10,4 +10,9 @@ let result = 3 + 4
 
 // Var names cannot be reserved keyords
 /* let let. not allowed */
+/* example */ 
+let city = 'aurora'
+let state = 'colorado'
 
+let location = city + ',' + state
+console.log(location)
